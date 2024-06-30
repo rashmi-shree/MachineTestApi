@@ -44,7 +44,7 @@ pm2 start index.js -->
 
 chmod 600 MachineTestServer.pem
 ssh -i MachineTestServer.pem ubuntu@ec2-16-170-228-16.eu-north-1.compute.amazonaws.com
-git clone https://github.com/rashmi-shree/MachineTestServer.git
+git clone https://github.com/rashmi-shree/MachineTestApi.git
 -- install nvm
 -- install node
 -- cd to the folder
@@ -55,7 +55,7 @@ git clone https://github.com/rashmi-shree/MachineTestServer.git
 -- pm2 list
 
 To update
--- cd MachineTestServer
+-- cd MachineTestApi
 -- git pull
 -- pm2 kill
 -- pm2 start index.js
