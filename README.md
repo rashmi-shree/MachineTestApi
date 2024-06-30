@@ -65,3 +65,5 @@ on ec2 we can do "source ./deploy.sh "
 ssh -t -i MachineTestServer.pem ubuntu@ec2-16-170-228-16.eu-north-1.compute.amazonaws.com "sudo bash ~/deploy.sh"
 
 ssh-keyscan ec2-16-170-228-16.eu-north-1.compute.amazonaws.com >> known_hosts
+
+ssh -t -i keyfile ubuntu@ec2-16-170-228-16.eu-north-1.compute.amazonaws.com “sudo bash ~/deploy.sh”
