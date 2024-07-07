@@ -36,7 +36,7 @@ If you have any feedback, please reach out to me at rashmidivya.shree6@gmail.com
 #!/bin/bash
 export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v20.5.0/bin
 
-cd MachineTestServer
+cd MachineTestAPI
 git pull origin
 pm2 kill
 pm2 start index.js -->
